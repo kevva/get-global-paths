@@ -1,0 +1,39 @@
+{
+  "name": "get-global-paths",
+  "version": "1.0.0",
+  "description": "Get all global paths from an array",
+  "license": "MIT",
+  "repository": "kevva/get-global-paths",
+  "author": {
+    "name": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "https://github.com/kevva"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "array",
+    "check",
+    "file",
+    "filepath",
+    "folder",
+    "global",
+    "in",
+    "inside",
+    "path",
+    "pwd"
+  ],
+  "dependencies": {
+    "is-path-global": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4"
+  }
+}
