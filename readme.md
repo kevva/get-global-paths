@@ -2,11 +2,13 @@
 
 > Get all global paths from an array
 
+
 ## Install
 
 ```sh
 $ npm install --save get-global-paths
 ```
+
 
 ## Usage
 
@@ -22,6 +24,16 @@ var arr = [
 getGlobalPaths(arr);
 //=> ['/usr/bin', '/usr/local/bin']
 ```
+
+
+## API
+
+getGlobalPaths(array)
+
+Type: `array`
+
+An array of paths to match against.
+
 
 ## License
 
