@@ -28,7 +28,7 @@ getGlobalPaths(arr);
 
 ## API
 
-getGlobalPaths(array)
+### getGlobalPaths(array)
 
 Type: `array`
 
