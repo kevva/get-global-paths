@@ -1,7 +1,7 @@
 'use strict';
 
-var getGlobalPaths = require('./');
 var test = require('ava');
+var getGlobalPaths = require('./');
 
 test('return an array of global paths', function (t) {
 	var arr = [
@@ -10,6 +10,6 @@ test('return an array of global paths', function (t) {
 		__dirname
 	];
 
-	t.assert(getGlobalPaths(arr).length === 2);
+	t.assert(getGlobalPaths(arr).length === 2, getGlobalPaths(arr).length);
 	t.end();
 });
