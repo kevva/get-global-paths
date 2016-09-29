@@ -1,6 +1,6 @@
 {
   "name": "get-global-paths",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Get all global paths from an array",
   "license": "MIT",
   "repository": "kevva/get-global-paths",
