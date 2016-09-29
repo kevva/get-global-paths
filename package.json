@@ -10,10 +10,10 @@
     "url": "https://github.com/kevva"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
-    "test": "xo && node test.js"
+    "test": "xo && ava"
   },
   "files": [
     "index.js"
@@ -31,10 +31,13 @@
     "pwd"
   ],
   "dependencies": {
-    "is-path-global": "^1.0.0"
+    "is-path-global": "^2.0.0"
   },
   "devDependencies": {
-    "ava": "^0.0.4",
+    "ava": "*",
     "xo": "*"
+  },
+  "xo": {
+    "esnext": true
   }
 }

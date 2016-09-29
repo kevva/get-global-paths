@@ -1,4 +1,4 @@
-# get-global-paths [![Build Status](http://img.shields.io/travis/kevva/get-global-paths.svg?style=flat)](https://travis-ci.org/kevva/get-global-paths)
+# get-global-paths [![Build Status](https://travis-ci.org/kevva/get-global-paths.svg?branch=master)](https://travis-ci.org/kevva/get-global-paths)
 
 > Get all global paths from an array
 
@@ -13,24 +13,24 @@ $ npm install --save get-global-paths
 ## Usage
 
 ```js
-var getGlobalPaths = require('get-global-paths');
+const getGlobalPaths = require('get-global-paths');
 
-var arr = [
+const paths = [
 	'/home/johndoe',
 	'/usr/bin',
 	'/usr/local/bin'
 ];
 
-getGlobalPaths(arr);
+getGlobalPaths(paths);
 //=> ['/usr/bin', '/usr/local/bin']
 ```
 
 
 ## API
 
-### getGlobalPaths(array)
+### getGlobalPaths(paths)
 
-Type: `array`
+Type: `Array`
 
 An array of paths to match against.
 

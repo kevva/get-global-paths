@@ -1,6 +1,4 @@
 'use strict';
-var isPathGlobal = require('is-path-global');
+const isPathGlobal = require('is-path-global');
 
-module.exports = function (arr) {
-	return arr.filter(isPathGlobal);
-};
+module.exports = paths => paths.filter(isPathGlobal);
